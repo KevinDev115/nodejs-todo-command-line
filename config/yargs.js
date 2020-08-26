@@ -5,7 +5,12 @@ const createOptions = {
     desc: "Descripcion de la tarea por hacer",
   },
 };
-const listOptions = {};
+const listOptions = {
+  id: {
+    alias: "i",
+    desc: "Id de la tarea a buscar.",
+  },
+};
 const updateOptions = {
   id: {
     alias: "i",
@@ -16,10 +21,17 @@ const updateOptions = {
     alias: "d",
     desc: "Descripcion de la tarea por hacer",
   },
-  complete: {
+  completed: {
     alias: "c",
     default: true,
     desc: "Marca como completado o pendiente la tarea la tarea",
+  },
+};
+const desctroyOptions = {
+  id: {
+    alias: "i",
+    demand: true,
+    desc: "Id de la tarea a eliminar.",
   },
 };
 
@@ -30,6 +42,8 @@ const argv = require("yargs")
   .command("list", "List todo.", listOptions)
   .command("actualizar", "Actualizar una tarea.", updateOptions)
   .command("update", "Update todo.", updateOptions)
+  .command("borrar", "Elimina una tarea.", desctroyOptions)
+  .command("delete", "Destroy todo.", desctroyOptions)
   .help().argv;
 
 module.exports = {
