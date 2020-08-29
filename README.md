@@ -20,6 +20,9 @@ To see the command list you must execute the command `$ node app --help` within 
 
 ![Command Help](https://firebasestorage.googleapis.com/v0/b/react-native-restaurants-8dbbf.appspot.com/o/img%2Fhelp.png?alt=media&token=9183775a-e804-408b-b355-bc6ffb7cbc64)  
 
+If you want to know the parameters that a command has, you just have to put the `--help` after each command like this:
+
+![Command Help Params](https://firebasestorage.googleapis.com/v0/b/react-native-restaurants-8dbbf.appspot.com/o/img%2Fcreate_help.png?alt=media&token=fd8351fa-d1fe-45a6-9e64-d45c13325095)  
 
 ### Command List
 
@@ -35,3 +38,15 @@ Params
 Result param id: 
 
 ![Command List](https://firebasestorage.googleapis.com/v0/b/react-native-restaurants-8dbbf.appspot.com/o/img%2Flist_id.png?alt=media&token=31911912-1d8b-4720-b7f2-130dbe9a63f1)  
+
+### Command Create
+
+This command is used to create a new todo, just by running the command `node app create` or `node app crear` with their respective parameters.
+
+params
+  - `-d, --description`: This is description of the todo.
+  
+result: 
+
+![Command Create](https://firebasestorage.googleapis.com/v0/b/react-native-restaurants-8dbbf.appspot.com/o/img%2Fcreate.png?alt=media&token=529b9b64-4a66-4951-9de9-c786a7c77855)  
+
