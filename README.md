@@ -90,7 +90,7 @@ result:
 ![Command Update](https://firebasestorage.googleapis.com/v0/b/react-native-restaurants-8dbbf.appspot.com/o/img%2Fdelete.png?alt=media&token=dd13c5fa-73b4-40c4-b8b1-3e8a21e9f5ab)  
 ## packages
 
-  - [yargs ^15.4.1][https://www.npmjs.com/package/yargs] 
-  - [colors ^1.4.0][https://www.npmjs.com/package/colors] 
+  - [yargs ^15.4.1](https://www.npmjs.com/package/yargs) 
+  - [colors ^1.4.0](https://www.npmjs.com/package/colors) 
 
   
