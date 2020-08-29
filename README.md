@@ -66,7 +66,7 @@ In the list:
 
 ![Command Update](https://firebasestorage.googleapis.com/v0/b/react-native-restaurants-8dbbf.appspot.com/o/img%2Fupdate_list_desc.png?alt=media&token=d2fe0678-fbd4-4f16-868a-5d413e284cc4)  
 
-If you want to complete a todo, just pass the parameter `-c` just like that or with the value of` true`
+If you want to complete a todo, just pass the parameter `-c` just like that or with the value of `true`
 
 
 result:
@@ -76,3 +76,21 @@ result:
 In the list: 
 
 ![Command Update](https://firebasestorage.googleapis.com/v0/b/react-native-restaurants-8dbbf.appspot.com/o/img%2Flist_update_complete.png?alt=media&token=8bbe293e-0517-4320-996f-b80897afb7e9)  
+
+
+### Command Delete
+
+This command delete a todo according to your id.
+
+params
+  - `-i, --id`: This is the ID of the todo.
+  
+result:
+
+![Command Update](https://firebasestorage.googleapis.com/v0/b/react-native-restaurants-8dbbf.appspot.com/o/img%2Fdelete.png?alt=media&token=dd13c5fa-73b4-40c4-b8b1-3e8a21e9f5ab)  
+## packages
+
+  - [yargs ^15.4.1][https://www.npmjs.com/package/yargs] 
+  - [colors ^1.4.0][https://www.npmjs.com/package/colors] 
+
+  
